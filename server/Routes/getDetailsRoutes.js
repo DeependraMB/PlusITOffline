@@ -9,6 +9,7 @@ router.get("/districtV4", async(req, res)=> {
     res.json(districts);
 });
 
+
 router.get('/constituencies/:district', async (req, res) => {
     const { district } = req.params;
     try {
